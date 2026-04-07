@@ -1,34 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NutritionAdvice"
     android:orientation="vertical"
     android:background="@color/black"
-    >
+    android:padding="20dp"
+    tools:context=".NutritionAdvice">
 
-
-
-
+    <!-- Title -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nutrition Advice"
-        android:textSize="30sp"
-        android:textAlignment="center"
-        android:layout_marginTop="20dp"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="5"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Motivational Tagline -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fuel your body, nourish your mind."
+        android:textSize="18sp"
         android:textColor="#A6E70D"
-        android:fontFamily="serif"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Nutrition Image Banner -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/nutrition"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="24dp"
+
+        android:elevation="6dp"/>
+
+    <!-- Advice Section -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Eat more whole foods\n• Stay hydrated\n• Balance proteins, carbs, and fats\n• Limit processed sugar"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:lineSpacingExtra="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="12dp"
         />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:src="@drawable/image5"
-        android:scaleType="centerCrop"
-        android:layout_margin="30dp"/>
+    <!-- Action Button -->
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Want to follow along with our suggested diet ->"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#A6E70D"
+        android:layout_marginTop="32dp"
+        android:padding="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="4dp"/>
 </LinearLayout>

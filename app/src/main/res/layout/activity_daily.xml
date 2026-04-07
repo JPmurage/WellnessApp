@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyMotivation"
+    android:orientation="vertical"
+    android:background="@color/black"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daily Motivation"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#A6E70D"
+        android:layout_marginTop="20sp"
+        android:fontFamily="serif"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/motivate"
+        android:scaleType="centerCrop"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Often start and not finish..."
+        android:textSize="25dp"
+        android:textColor="#4CAF50"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Every step you take toward wellness is a victory. Progress isn’t about perfection—it’s about showing up for yourself, one choice at a time. This app is here to guide, inspire, and remind you that your health journey is worth celebrating. Stay consistent, stay kind to yourself, and remember: small actions build lasting change"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Interested in more motivating quotes like this?? Follow this page->"
+        android:textColor="#4CAF50"
+        android:backgroundTint="@color/white"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/motivation"
+            />
+
+
+
+
+</LinearLayout>

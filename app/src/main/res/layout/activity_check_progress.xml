@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckProgress"
+    android:background="@color/black"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Progress"
+        android:textColor="#A6E70D"
+        android:textAlignment="center"
+        android:fontFamily="serif"
+        android:layout_marginTop="20sp"
+        android:textSize="30dp"
+        />
+
+    <ImageView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/progress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Want to track your progress..."
+        android:textSize="20dp"
+        android:textColor="#4CAF50"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="The Check Progress page gives users a clear snapshot of their journey and achievements within the app. It displays completed tasks, milestones reached, and upcoming goals in a visually organized format. Progress bars, percentage indicators, and status updates help users quickly understand how far they’ve come and what remains ahead. This page is designed to motivate and guide users by highlighting accomplishments while keeping future objectives in focus."
+        android:textColor="@color/white"
+        android:layout_marginTop="30sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="#FAFAFA"
+        android:text="Interested?Click here->"
+        android:textColor="#A6E70D"/>
+</LinearLayout>

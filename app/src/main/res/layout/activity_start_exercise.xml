@@ -8,13 +8,13 @@
     android:orientation="vertical"
     android:background="@color/black"
     android:padding="20dp"
-    tools:context=".Meditation">
+    tools:context=".StartExercise">
 
     <!-- Title -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Meditation"
+        android:text="Start Your Exercise"
         android:textSize="32sp"
         android:textStyle="bold"
         android:textColor="@android:color/white"
@@ -30,42 +30,29 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Away from the world,connect with spirituality ."
+        android:text="Consistency builds strength. Let’s begin!"
         android:textSize="18sp"
         android:textColor="#A6E70D"
         android:gravity="center"
         android:fontFamily="sans-serif-light"
         android:layout_marginTop="12dp"/>
 
-    <!-- Nutrition Image Banner -->
+    <!-- Exercise Image Banner -->
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:src="@drawable/energy"
+        android:src="@drawable/main2"
         android:scaleType="centerCrop"
         android:layout_marginTop="24dp"
-
+        android:background="@drawable/progressbar"
         android:elevation="6dp"/>
 
-    <!-- Advice Section -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="• Find  a calm peaceful scenery\n• Relax your Body\n• Balance proteins, carbs, and fats\n• Limit processed sugar"
-        android:textSize="16sp"
-        android:textColor="@android:color/white"
-        android:layout_marginTop="20dp"
-        android:lineSpacingExtra="4dp"
-        android:fontFamily="sans-serif-medium"
-        android:padding="12dp"
-        />
-
-    <!-- Action Button -->
+    <!-- Start Button -->
     <Button
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Want to follow along with our suggested diet ->"
+        android:text="START NOW"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@android:color/white"

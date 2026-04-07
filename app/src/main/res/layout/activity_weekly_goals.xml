@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DailyMotivation"
+    android:orientation="vertical"
+    android:background="@color/black"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weekly goals"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#A6E70D"
+        android:layout_marginTop="20sp"
+        android:fontFamily="serif"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/image5"
+        android:scaleType="centerCrop"
+        android:layout_margin="30dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't be overwhelmed by the weight of your target..."
+        android:textSize="25dp"
+        android:textColor="#4CAF50"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The wellness app has instituted regime to enable you to break down your goals into achievable tasks.We have compiled a monthly, weekly and even daily targets for you to follow along with"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="Let's begin ->"
+        android:textColor="#4CAF50"
+        android:backgroundTint="@color/white"/>
+
+    <ImageView
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/goals" />
+
+
+</LinearLayout>
